@@ -1,4 +1,22 @@
-<<<<<<< Updated upstream
+:root{
+    --vm-1:#e5243b;
+    --vm-2:#dda63a;
+    --vm-3:#4c9f38;
+    --vm-4:#c5192d;
+    --vm-5:#ff3a21;
+    --vm-6:#26bde2;
+    --vm-7:#fcc30b;
+    --vm-8:#a21942;
+    --vm-9:#fd6925;
+    --vm-10:#dd1367;
+    --vm-11:#fd9d24;
+    --vm-12:#bf8b2e;
+    --vm-13:#3f7e44;
+    --vm-14:#0a97d9;
+    --vm-15:#56c02b;
+    --vm-11:#00689d;
+    --vm-11:#19486a;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -28,26 +46,3 @@ li {
 li img {
   object-fit: cover;
 }
-=======
-
-:root{
-    --vm-1:#e5243b;
-    --vm-2:#dda63a;
-    --vm-3:#4c9f38;
-    --vm-4:#c5192d;
-    --vm-5:#ff3a21;
-    --vm-6:#26bde2;
-    --vm-7:#fcc30b;
-    --vm-8:#a21942;
-    --vm-9:#fd6925;
-    --vm-10:#dd1367;
-    --vm-11:#fd9d24;
-    --vm-12:#bf8b2e;
-    --vm-13:#3f7e44;
-    --vm-14:#0a97d9;
-    --vm-15:#56c02b;
-    --vm-11:#00689d;
-    --vm-11:#19486a;
-    }
-    
->>>>>>> Stashed changes
