@@ -266,7 +266,9 @@
   {
     "ID": "197620c1-ee1a-4940-afdf-a469e90a0d72",
     "cover": "contentrain/static/1670835878246_17 Goal-Partnership.png",
-    "subgoals": [],
+    "subgoals": [
+      "contentrain/static/1670837173131_MC_Target_17.1.png"
+    ],
     "title": "Partnerships For The Goals",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident repellat ut illum, obcaecati minus facilis beatae porro, aut nisi saepe inventore similique corporis ducimus fugit, ex laborum nam ad expedita!\nCorporis incidunt nisi, illo odit mollitia quis quae dolore repellat eveniet eaque optio consectetur, earum reprehenderit distinctio maxime perferendis ad blanditiis voluptate aliquid voluptas adipisci eius! Necessitatibus veniam est aliquam.",
     "createdAt": 1670835893638
