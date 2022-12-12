@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/blaze.css" />
     <link rel="stylesheet" href="src/css/style.css" />
-    <script src="/src/js/index.js" defer></script>
+    <script src="https://unpkg.com/blaze-slider@latest/dist/blaze-slider.min.js"></script>
+    <script src="/src/js/index.js" type="module" defer></script>
     <title>Global Goals</title>
   </head>
 
@@ -21,7 +23,7 @@
           <li><a href="#">NAV #1</a></li>
           <li><a href="#">NAV #2</a></li>
           <li><a href="#">NAV #3</a></li>
-          <li><a href="#">NAV #4</a></li>
+          <li><a href="#">🡒 Læs Mere</a></li>
         </ul>
       </nav>
     </header>
@@ -35,8 +37,29 @@
 
       <div id="grid-wrapper">
         <ul id="goal-grid"></ul>
-        <dialog>😇</dialog>
       </div>
+      <dialog id="dialog">
+        <div id="slider">
+          <div class="blaze-slider">
+            <div class="blaze-container">
+              <div class="blaze-track-container">
+                <div class="blaze-track"></div>
+              </div>
+              <div class="pagination">
+                <button class="blaze-prev" aria-label="Go to previous slide">
+                  ←
+                </button>
+                <div class="blaze-pagination"></div>
+                <button class="blaze-next" aria-label="Go to next slide">
+                  →
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 id="title"></h1>
+        <p id="description"></p>
+      </dialog>
 
       <h2>TITLE</h2>
 
