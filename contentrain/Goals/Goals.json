@@ -94,5 +94,13 @@
     "title": "Responsible Consumption And Production",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident repellat ut illum, obcaecati minus facilis beatae porro, aut nisi saepe inventore similique corporis ducimus fugit, ex laborum nam ad expedita!\nCorporis incidunt nisi, illo odit mollitia quis quae dolore repellat eveniet eaque optio consectetur, earum reprehenderit distinctio maxime perferendis ad blanditiis voluptate aliquid voluptas adipisci eius! Necessitatibus veniam est aliquam.",
     "createdAt": 1670835772555
+  },
+  {
+    "ID": "b75830ac-def0-4856-bbd6-3aa0ac47a287",
+    "cover": "contentrain/static/1670835785792_13 Goal-Climate-Action.png",
+    "subgoals": [],
+    "title": "Climate Action",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident repellat ut illum, obcaecati minus facilis beatae porro, aut nisi saepe inventore similique corporis ducimus fugit, ex laborum nam ad expedita!\nCorporis incidunt nisi, illo odit mollitia quis quae dolore repellat eveniet eaque optio consectetur, earum reprehenderit distinctio maxime perferendis ad blanditiis voluptate aliquid voluptas adipisci eius! Necessitatibus veniam est aliquam.",
+    "createdAt": 1670835798967
   }
 ]
