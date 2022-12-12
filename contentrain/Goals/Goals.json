@@ -110,9 +110,10 @@
       "contentrain/static/1670836473873_MC_Target_6.A.png",
       "contentrain/static/1670836479079_MC_Target_6.B.png"
     ],
-    "title": "Clean Water And Sanitation",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident repellat ut illum, obcaecati minus facilis beatae porro, aut nisi saepe inventore similique corporis ducimus fugit, ex laborum nam ad expedita!\nCorporis incidunt nisi, illo odit mollitia quis quae dolore repellat eveniet eaque optio consectetur, earum reprehenderit distinctio maxime perferendis ad blanditiis voluptate aliquid voluptas adipisci eius! Necessitatibus veniam est aliquam.",
-    "createdAt": 1670835614288
+    "title": "RENT VAND OG SANITET",
+    "description": "Målet handler om at forbedre vandkvaliteten og sikre en ordentlig forvaltning af vandressourcer, således at der er en universel adgang til rent drikkevand. Vandmangel påvirker mere end 40 procent af verdens befolkning. Det er et alarmerende tal, som  forventes at øge med de stigende globale temperaturer forårsaget af klimaændringerne. \n\nSelvom 2,1 milliarder mennesker har fået forbedret adgang til vand og sanitet siden 1990, er svindende forsyninger af rent drikkevand et stort problem, som påvirker alle kontinenter. ",
+    "createdAt": 1670835614288,
+    "updatedAt": 1670838438748
   },
   {
     "ID": "5a3d8784-79d5-4a2b-98bb-f8eda5ea205b",
