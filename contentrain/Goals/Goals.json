@@ -112,7 +112,9 @@
   {
     "ID": "5a3d8784-79d5-4a2b-98bb-f8eda5ea205b",
     "cover": "contentrain/static/1670835621811_07 Goal-Clean-Energy.png",
-    "subgoals": [],
+    "subgoals": [
+      "contentrain/static/1670836514350_MC_Target_7.1.png"
+    ],
     "title": "Affordable And Clean Energy",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident repellat ut illum, obcaecati minus facilis beatae porro, aut nisi saepe inventore similique corporis ducimus fugit, ex laborum nam ad expedita!\nCorporis incidunt nisi, illo odit mollitia quis quae dolore repellat eveniet eaque optio consectetur, earum reprehenderit distinctio maxime perferendis ad blanditiis voluptate aliquid voluptas adipisci eius! Necessitatibus veniam est aliquam.",
     "createdAt": 1670835630590
