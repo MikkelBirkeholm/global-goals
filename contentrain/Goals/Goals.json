@@ -218,9 +218,10 @@
       "contentrain/static/1670836965293_MC_Target_12.3.png",
       "contentrain/static/1670836972789_MC_Target_12.4.png"
     ],
-    "title": "Responsible Consumption And Production",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident repellat ut illum, obcaecati minus facilis beatae porro, aut nisi saepe inventore similique corporis ducimus fugit, ex laborum nam ad expedita!\nCorporis incidunt nisi, illo odit mollitia quis quae dolore repellat eveniet eaque optio consectetur, earum reprehenderit distinctio maxime perferendis ad blanditiis voluptate aliquid voluptas adipisci eius! Necessitatibus veniam est aliquam.",
-    "createdAt": 1670835772555
+    "title": "ANSVARLIGT FORBRUG OG PRODUKTION",
+    "description": "Målet handler om effektiv styring af vores fælles naturressourcer, og måden vi bortskaffer giftigt affald og forurenende stoffer samt at tilskynde industrier, virksomheder og forbrugere til at genbruge og reducere deres affald. Økonomisk vækst og bæredygtig udvikling kræver, at vi hurtigst muligt reducere vores fodaftryk på naturen ved at ændre på den måde vi producerer og forbruger vores varer og ressourcer på. Landbruget er den største forbruger af vand på verdensplan, og kunstig vanding står nu for ca. 70 procent af alt forbrug af ferskvand beregnet til menneskeligt brug.",
+    "createdAt": 1670835772555,
+    "updatedAt": 1670838595795
   },
   {
     "ID": "b75830ac-def0-4856-bbd6-3aa0ac47a287",
