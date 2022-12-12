@@ -86,5 +86,13 @@
     "title": "Sustainable Citites And Communities",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident repellat ut illum, obcaecati minus facilis beatae porro, aut nisi saepe inventore similique corporis ducimus fugit, ex laborum nam ad expedita!\nCorporis incidunt nisi, illo odit mollitia quis quae dolore repellat eveniet eaque optio consectetur, earum reprehenderit distinctio maxime perferendis ad blanditiis voluptate aliquid voluptas adipisci eius! Necessitatibus veniam est aliquam.",
     "createdAt": 1670835750404
+  },
+  {
+    "ID": "18e59121-7279-4e73-8759-2950e1c887bb",
+    "cover": "contentrain/static/1670835761196_12 Goal-Responsible-Consumption.png",
+    "subgoals": [],
+    "title": "Responsible Consumption And Production",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident repellat ut illum, obcaecati minus facilis beatae porro, aut nisi saepe inventore similique corporis ducimus fugit, ex laborum nam ad expedita!\nCorporis incidunt nisi, illo odit mollitia quis quae dolore repellat eveniet eaque optio consectetur, earum reprehenderit distinctio maxime perferendis ad blanditiis voluptate aliquid voluptas adipisci eius! Necessitatibus veniam est aliquam.",
+    "createdAt": 1670835772555
   }
 ]
