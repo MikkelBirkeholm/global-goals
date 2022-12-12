@@ -95,7 +95,9 @@
   {
     "ID": "db2b43c2-f3fe-49ca-a390-149394ea8916",
     "cover": "contentrain/static/1670835568395_06 Goal-Clean-Water.png",
-    "subgoals": [],
+    "subgoals": [
+      "contentrain/static/1670836427111_MC_Target_6.1.png"
+    ],
     "title": "Clean Water And Sanitation",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident repellat ut illum, obcaecati minus facilis beatae porro, aut nisi saepe inventore similique corporis ducimus fugit, ex laborum nam ad expedita!\nCorporis incidunt nisi, illo odit mollitia quis quae dolore repellat eveniet eaque optio consectetur, earum reprehenderit distinctio maxime perferendis ad blanditiis voluptate aliquid voluptas adipisci eius! Necessitatibus veniam est aliquam.",
     "createdAt": 1670835614288
