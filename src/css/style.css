@@ -105,7 +105,13 @@ nav ul {
   padding: 2em 0;
 }
 
+#goal-grid:has(li:hover) li:not(:hover) {
+  opacity: 0.5;
+  scale: 0.96;
+}
+
 #goal-grid li {
+  transition: 600ms;
   height: fit-content;
 }
 
@@ -124,4 +130,32 @@ dialog {
   width: clamp(2ch, 700px, 90vw);
   height: 90vh;
   margin: auto;
+}
+
+/* ================================================== */
+
+.article {
+}
+
+.article img {
+  width: 100%;
+  display: block;
+}
+
+.article figure {
+  margin: 0;
+}
+
+.article h3 {
+}
+
+.article p {
+}
+
+.article footer {
+  text-align: right;
+}
+
+.article footer a {
+  text-decoration: none;
 }
