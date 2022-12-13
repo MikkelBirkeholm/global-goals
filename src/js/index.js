@@ -6,6 +6,9 @@ const description = document.querySelector('#description')
 const blazeTrack = document.querySelector('.blaze-track')
 const blazer = document.querySelector('.blaze-slider')
 const blazePagination = document.querySelector('.blaze-pagination')
+const activeBtn = document.querySelector('.active')
+const blazePrev = document.querySelector('.prev')
+const blazeNext = document.querySelector('.next')
 let customSlider = null;
 let allGoals;
 let goalsData;
@@ -29,7 +32,10 @@ fetch('contentrain/Goals/Goals.json').then(response => response.json())
             goal.addEventListener('click', (e) => {
                 let index = e.currentTarget.id
                 blazePagination.innerHTML = ''
+                blazePrev.style.color = goalsData[index].color
+                blazeNext.style.color = goalsData[index].color
                 blazeTrack.innerHTML = ''
+                document.documentElement.style.setProperty('--paginationBtn', goalsData[index].color)
                 title.innerText = goalsData[index].title
                 description.innerText = goalsData[index].description
                 let subgoalsArray = goalsData[index].subgoals

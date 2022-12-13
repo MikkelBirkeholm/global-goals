@@ -5,6 +5,7 @@
 }
 
 :root {
+  --paginationBtn: #efefef;
   --font-alt: 'Helvetica';
   --font-main: 'Inter';
   --bg-main: #fff;
@@ -28,6 +29,11 @@
   --vm-17: #19486a;
   --border-radius: 1rem;
   --box-shadow: 0 4px 5px rgb(0 0 0 / 0.3);
+}
+
+.blaze-pagination button.active {
+  transform: scale(1.5);
+  background-color: var(--paginationBtn);
 }
 
 html {
@@ -76,6 +82,13 @@ nav {
   background-color: white;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+}
+
+.blaze-btn {
+  background-color: var(--bg-main);
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 nav ul {
