@@ -7,28 +7,30 @@ const blazeTrack = document.querySelector('.blaze-track')
 const blazer = document.querySelector('.blaze-slider')
 const blazePagination = document.querySelector('.blaze-pagination')
 let allGoals;
+let goalsData;
 
 
 
 fetch('contentrain/Goals/Goals.json').then(response => response.json())
     .then(data => {
-        for (let [i, item] of data.entries()) {
+        goalsData = data
 
-            goalsGrid.innerHTML += `<li class="goal" data-title="${item.title}" data-subgoals="${item.subgoals}"><img src="${item.cover}" alt="" /></li>`
+        for (let [i, item] of data.entries()) {
+            goalsGrid.innerHTML += `<li class="goal" id="${i}" data-subgoals="${item.subgoals}"><img src="${item.cover}" alt="" /></li>`
 
         }
-        goalsGrid.innerHTML += `<li id="no-goal">jhjh</li>`
+        goalsGrid.innerHTML += `<li id="no-goal"></li>`
         getGoals()
 
 
-        for (let goal of allGoals) {
-            goal.addEventListener('click', () => {
+        for (let [i, goal] of allGoals.entries()) {
+            goal.addEventListener('click', (e) => {
+                let index = e.currentTarget.id
                 blazePagination.innerHTML = ''
                 blazeTrack.innerHTML = ''
-                title.innerText = goal.getAttribute('data-title')
-                let subgoalsString = goal.getAttribute('data-subgoals')
-                let subgoalsArray = subgoalsString.split(',')
-
+                title.innerText = goalsData[index].title
+                description.innerText = goalsData[index].description
+                let subgoalsArray = goalsData[index].subgoals
                 for (let img of subgoalsArray) {
                     blazeTrack.innerHTML += `<div class="slide" style="background-image:url('${img}');"></div>`
                 }

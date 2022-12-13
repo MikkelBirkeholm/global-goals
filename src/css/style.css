@@ -105,7 +105,14 @@ nav ul {
   padding: 2em 0;
 }
 
+#goal-grid:has(li:hover) li:not(:hover) {
+  opacity: 0.5;
+  filter: brightness(0.5);
+  scale: 0.96;
+}
+
 #goal-grid li {
+  transition: 600ms;
   height: fit-content;
 }
 
