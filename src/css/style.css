@@ -134,28 +134,38 @@ dialog {
 
 /* ====================Nyheder============================== */
 
+.article{
+  display: flex;
+  flex-direction: column;
+}
 
-
-.article {
+.article h3,h2 {
+text-align: center;
+margin: 50px;
 }
 
 .article img {
   width: 100%;
   display: block;
+  margin-bottom: 50px;
 }
 
 .article figure {
   margin: 0;
 }
 
-.article h3 {
-}
 
 .article p {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .article footer {
   text-align: right;
+  margin-right: 20%;
+  margin-top: 3%;
+
 }
 
 .article footer a {
