@@ -132,7 +132,9 @@ dialog {
   margin: auto;
 }
 
-/* ================================================== */
+/* ====================Nyheder============================== */
+
+
 
 .article {
 }
@@ -158,4 +160,11 @@ dialog {
 
 .article footer a {
   text-decoration: none;
+}
+
+/* ======================kontakt============================ */
+
+form {
+  display: flex;
+  flex-direction: column;
 }
