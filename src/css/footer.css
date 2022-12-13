@@ -1,5 +1,5 @@
 footer {
-  max-width: 1000px;
+  width: clamp(2ch, 1100px, 90vw);
   height: 200px;
   margin: auto;
   padding: 10px 0px;
@@ -87,6 +87,7 @@ footer img {
   margin-top: 1.5rem;
   border-top: 1px solid black;
   padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .copyright div {
   display: flex;

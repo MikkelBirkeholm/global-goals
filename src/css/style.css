@@ -130,10 +130,16 @@ nav ul {
   grid-template-columns: repeat(6, 1fr);
   gap: 1em;
   align-items: flex-start;
-  width: 1100px;
+  max-width: 1100px;
   margin: auto;
   padding: 2em 0;
 }
+@media (max-width: 800px) {
+  #goal-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 
 #goal-grid:has(li:hover) li:not(:hover) {
   opacity: 0.5;
