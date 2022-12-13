@@ -36,6 +36,12 @@ span,
 a {
   font-family: 'Inter', sans-serif;
 }
+
+p {
+  display: block;
+  margin: 1rem 0;
+}
+
 h1,
 h2,
 h3,
@@ -181,14 +187,15 @@ dialog::backdrop {
 
 /* ====================Nyheder============================== */
 
-.article{
+.article {
   display: flex;
   flex-direction: column;
 }
 
-.article h3,h2 {
-text-align: center;
-margin: 50px;
+.article h3,
+h2 {
+  text-align: center;
+  margin: 50px;
 }
 
 .article img {
@@ -201,7 +208,6 @@ margin: 50px;
   margin: 0;
 }
 
-
 .article p {
   text-align: left;
   margin-left: 20%;
@@ -212,7 +218,6 @@ margin: 50px;
   text-align: right;
   margin-right: 20%;
   margin-top: 3%;
-
 }
 
 .article footer a {
