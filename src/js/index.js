@@ -13,8 +13,6 @@ let customSlider = null;
 let allGoals;
 let goalsData;
 
-
-
 fetch('contentrain/Goals/Goals.json').then(response => response.json())
     .then(data => {
         goalsData = data
@@ -49,9 +47,6 @@ fetch('contentrain/Goals/Goals.json').then(response => response.json())
 
     })
 
-
-
-
 function getGoals() {
     allGoals = document.querySelectorAll('.goal')
 }
@@ -77,3 +72,33 @@ dialog.addEventListener('click', (event) => {
         customSlider.destroy()
     }
 });
+
+
+
+
+let tiles = document.querySelectorAll('.tile')
+
+let initNum = anime.random(1, 17)
+tiles.forEach(tile => {
+    tile.style.backgroundColor = `var(--vm-${initNum})`
+});
+
+function tileColor() {
+    let randomNum = anime.random(1, 17)
+    let randomAlt = anime.random(0, 17)
+    let colorNum = `var(--vm-${randomNum})`
+
+    anime({
+        autoplay: true,
+        targets: tiles[randomAlt],
+        backgroundColor: colorNum,
+        easing: 'linear',
+        duration: 500,
+        complete: function () {
+            tileColor()
+        }
+    })
+
+}
+
+tileColor() 
