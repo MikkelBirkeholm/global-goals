@@ -5,29 +5,28 @@
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     max-width: 1000px;
     height: 200px;
-    background-color: blue;
     margin: auto;
-    padding: 10px;
+    padding: 10px 0px;
     font-family: sans-serif;
     color: black;
+}
+footer > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 img {
     display: block;
     height: 180px;
 }
 .sec-grid {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-right: 1px solid black;
     padding-right: 2rem;
-    gap: 2rem;
+    gap: 0rem;
     font-size: 1.3rem;
 }
 
@@ -66,15 +65,65 @@ img {
 }
 
 #email {
-    max-width: 160px;
-    border: ;
+    width: 220px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 1.3rem;
+    background: transparent;
 }
 
 #submit {
-    width: 80px;
-    padding: 0.3rem 0.5rem;
+    width: 110px;
+    padding: 0.5rem;
+    background-color: #222;
+    border: none;
+    border-radius: 4px;
+    color: #ededed;
+    cursor: pointer;
 }
 
 .sec-flex p {
     font-weight: bold;
+}
+
+
+
+
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    border-top: 1px solid black;
+    padding-top: 0.5rem;
+}
+.copyright div {
+    display: flex;
+    gap: 2rem;
+}
+
+.copyright a {
+    color: black;
+    text-decoration: none;
+}
+
+
+@media (max-width: 800px) {
+    footer > div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sec-grid, 
+    .sec-flex {
+        border: none;
+        padding: 0 2rem;
+    }
+    .sec-grid {
+        padding-left: 2rem;
+    }
+    .copyright {
+        margin: 1.5rem 2rem 0 2rem;
+    }
 }
