@@ -114,6 +114,18 @@ nav ul {
   transition: 600ms;
   height: fit-content;
 }
+#mini-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.8rem;
+}
+
+#mini-grid span {
+  display: inline-block;
+  background-color: var(--vm-11);
+  width: 1em;
+  height: 1em;
+}
 
 .slider {
   height: 100%;
