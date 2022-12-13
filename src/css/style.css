@@ -5,6 +5,7 @@
 }
 
 :root {
+  --paginationBtn: #efefef;
   --font-alt: 'Helvetica';
   --font-main: 'Inter';
   --bg-main: #fff;
@@ -28,6 +29,22 @@
   --vm-17: #19486a;
   --border-radius: 1rem;
   --box-shadow: 0 4px 5px rgb(0 0 0 / 0.3);
+}
+
+p,
+span,
+a {
+  font-family: 'Inter', sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blaze-pagination button.active {
+  transform: scale(1.5);
+  background-color: var(--paginationBtn);
 }
 
 html {
@@ -78,6 +95,13 @@ nav {
   box-shadow: var(--box-shadow);
 }
 
+.blaze-btn {
+  background-color: var(--bg-main);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -114,6 +138,18 @@ nav ul {
   transition: 600ms;
   height: fit-content;
 }
+#mini-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.8rem;
+}
+
+#mini-grid span {
+  display: inline-block;
+  background-color: var(--vm-11);
+  width: 1em;
+  height: 1em;
+}
 
 .slider {
   height: 100%;
@@ -130,6 +166,17 @@ dialog {
   width: clamp(2ch, 700px, 90vw);
   height: 90vh;
   margin: auto;
+  padding: 1rem;
+  border: none;
+  border-radius: var(--border-radius);
+}
+
+dialog::backdrop {
+  backdrop-filter: blur(5px);
+}
+
+.dialog-content {
+  padding: 2rem 1rem;
 }
 
 /* ====================Nyheder============================== */

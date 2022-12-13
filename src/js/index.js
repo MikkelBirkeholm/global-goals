@@ -6,6 +6,10 @@ const description = document.querySelector('#description')
 const blazeTrack = document.querySelector('.blaze-track')
 const blazer = document.querySelector('.blaze-slider')
 const blazePagination = document.querySelector('.blaze-pagination')
+const activeBtn = document.querySelector('.active')
+const blazePrev = document.querySelector('.prev')
+const blazeNext = document.querySelector('.next')
+let customSlider = null;
 let allGoals;
 let goalsData;
 
@@ -23,11 +27,15 @@ fetch('contentrain/Goals/Goals.json').then(response => response.json())
         getGoals()
 
 
-        for (let [i, goal] of allGoals.entries()) {
+
+        for (let goal of allGoals) {
             goal.addEventListener('click', (e) => {
                 let index = e.currentTarget.id
                 blazePagination.innerHTML = ''
+                blazePrev.style.color = goalsData[index].color
+                blazeNext.style.color = goalsData[index].color
                 blazeTrack.innerHTML = ''
+                document.documentElement.style.setProperty('--paginationBtn', goalsData[index].color)
                 title.innerText = goalsData[index].title
                 description.innerText = goalsData[index].description
                 let subgoalsArray = goalsData[index].subgoals
@@ -42,12 +50,14 @@ fetch('contentrain/Goals/Goals.json').then(response => response.json())
     })
 
 
+
+
 function getGoals() {
     allGoals = document.querySelectorAll('.goal')
 }
 
 function initBlaze() {
-    new BlazeSlider(blazer, {
+    customSlider = new BlazeSlider(blazer, {
         all: {
             enableAutoplay: true,
             autoplayInterval: 3000,
@@ -58,11 +68,12 @@ function initBlaze() {
             slidesToShow: 1
         }
     })
+    customSlider
 }
 
 dialog.addEventListener('click', (event) => {
     if (event.target.nodeName === 'DIALOG') {
         dialog.close();
-
+        customSlider.destroy()
     }
 });

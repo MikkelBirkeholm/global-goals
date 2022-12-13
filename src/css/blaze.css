@@ -39,11 +39,6 @@
   padding: 0;
 }
 
-.blaze-pagination button.active {
-  transform: scale(1.5);
-  background-color: var(--un-blue);
-}
-
 .blaze-pagination,
 .pagination {
   display: flex;
@@ -51,4 +46,5 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  user-select: none;
 }

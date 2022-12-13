@@ -14,7 +14,8 @@
     "title": "AFSKAF FATTIGDOM ",
     "description": "Målet handler om afskaffelse af ekstrem fattigdom, at mindske den relative fattigdom og sikre alle adgang til basale ressourcer. Afskaffelsen af alle former for fattigdom er fortsat en af de største udfordringer for menneskeheden. Mens antallet af mennesker, der lever i ekstrem fattigdom, er halveret - fra 1,9 milliarder i 1990 til 736 millioner i 2015 - kæmper alt for mange stadig med at få opfyldt deres mest basale menneskelige behov. ",
     "createdAt": 1670835436138,
-    "updatedAt": 1670838327127
+    "updatedAt": 1670930169069,
+    "color": "#e5243b"
   },
   {
     "ID": "fde03e09-38aa-4125-83fd-e96a1348a65b",
@@ -32,7 +33,8 @@
     "title": "STOP SULT",
     "description": "Målet handler om at udrydde sult og fejlernæring og skabe bedre forhold for fødevareproduktion. Hurtig økonomisk vækst og øget landbrugsproduktivitet har i de seneste to årtier fået andelen af underernærede mennesker i verden til at falde med næsten halvdelen. Mange udviklingslande, som tidligere led af hungersnød og sult, kan nu opfylde de mest sårbare menneskers ernæringsmæssige behov. Central- og Østasien, Latinamerika og Caribien er regioner, der alle har gjort store fremskridt i udryddelsen af ekstrem hungersnød. ",
     "createdAt": 1670835446832,
-    "updatedAt": 1670838317650
+    "updatedAt": 1670930181797,
+    "color": "#dda63a"
   },
   {
     "ID": "43c963ae-7c09-40ba-bddf-f6c9d4f320ee",
@@ -56,7 +58,8 @@
     "title": "SUNDHED OG TRIVSEL",
     "description": "Målet handler om at mindske mødredødelighed og dødelighed blandt nyfødte og børn, sætte en stopper for epidemier og øge forebyggelsen af sygdomme samt det generelle sundhedsniveau. Siden vedtagelsen af 2015-Målene er der opnået historiske resultater i reducering af børnedødelighed, i forbedring af mødres sundhed og i bekæmpelsen af HIV/AIDS, malaria og andre sygdomme. ",
     "createdAt": 1670835466247,
-    "updatedAt": 1670838304582
+    "updatedAt": 1670930193670,
+    "color": "#4c9f38"
   },
   {
     "ID": "652cc8c3-df5d-416f-8d17-7a2d6f44e0ab",
@@ -76,7 +79,8 @@
     "title": "KVALITETSUDDANNELSE",
     "description": "Målet handler om at sikre både drenge og piger adgang til gratis grundskole uanset forældrenes indkomst niveau og sikre lige adgangs til højere uddannelse samt information helt generelt. Siden 2000 er der sket enorme fremskridt i forhold til målet om grundskoleuddannelse for alle. Den samlede indskrivningsrate i udviklingslande nåede op på 91 procent i 2015, og antallet af børn, der dropper ud af skolen, er faldet med næsten halvdelen. Der har også været en dramatisk stigning i antallet af børn, der kan læse, og der er flere piger i skole end nogensinde før. Disse er alle bemærkelsesværdige succeser. ",
     "createdAt": 1670835479689,
-    "updatedAt": 1670838375954
+    "updatedAt": 1670930215050,
+    "color": "#c5192d"
   },
   {
     "ID": "e583dbc6-f9a1-445d-b6eb-fcdf833c01c5",
@@ -95,7 +99,8 @@
     "title": "LIGESTILLING MELLEM KØNNENE",
     "description": "Målet handler om at styrke kvinders rettigheder og muligheder og stoppe diskrimination af kvinder og piger. En styrkelse af kvinders rettigheder og muligheder, og større ligestilling er afgørende for at fremskynde en bæredygtig udvikling. Fjernelse af alle former for diskrimination mod kvinder og piger er ikke kun en grundlæggende menneskeret, men det har også en multiplikatoreffekt på tværs af alle andre udviklingsområder. ",
     "createdAt": 1670835502839,
-    "updatedAt": 1670838396399
+    "updatedAt": 1670930226332,
+    "color": "#ff3a21"
   },
   {
     "ID": "db2b43c2-f3fe-49ca-a390-149394ea8916",
@@ -113,7 +118,8 @@
     "title": "RENT VAND OG SANITET",
     "description": "Målet handler om at forbedre vandkvaliteten og sikre en ordentlig forvaltning af vandressourcer, således at der er en universel adgang til rent drikkevand. Vandmangel påvirker mere end 40 procent af verdens befolkning. Det er et alarmerende tal, som  forventes at øge med de stigende globale temperaturer forårsaget af klimaændringerne. \n\nSelvom 2,1 milliarder mennesker har fået forbedret adgang til vand og sanitet siden 1990, er svindende forsyninger af rent drikkevand et stort problem, som påvirker alle kontinenter. ",
     "createdAt": 1670835614288,
-    "updatedAt": 1670838452844
+    "updatedAt": 1670930238352,
+    "color": "#26bde2"
   },
   {
     "ID": "5a3d8784-79d5-4a2b-98bb-f8eda5ea205b",
@@ -128,7 +134,8 @@
     "title": "BÆREDYGTIG ENERGI",
     "description": "Målet handler om at sikre en universel adgang til elektricitet til en overkommelig pris og øge andelen af vedvarende energi væsentligt. Mellem 1990 og 2010 er antallet af personer med adgang til elektricitet steget med 1,7 milliarder, og da den globale befolkning fortsætter med at stige, vil efterspørgslen efter billig energi også blive større. En global økonomi, der er afhængig af fossile brændstoffer, og stigningen i udledningen af drivhusgasser skaber drastiske ændringer i vores klimasystem. Det har en synlig effekt på alle kontinenter. ",
     "createdAt": 1670835630590,
-    "updatedAt": 1670838469142
+    "updatedAt": 1670930250547,
+    "color": "#fcc30b"
   },
   {
     "ID": "cfe94805-c151-4eb4-b608-535dec2f6f59",
@@ -151,7 +158,8 @@
     "title": "ANSTÆNDIGE JOBS OG ØKONOMISK VÆKST",
     "description": "Målet handler om at fremme økonomisk vækst ved at skabe højere produktivitet og teknologiske gennembrud og opnå fuld og produktiv beskæftigelse og anstændige jobs for alle kvinder og mænd i 2030. I løbet af de sidste 25 år er antallet af arbejdstagere, som lever i ekstrem fattigdom, faldet drastisk. Dette er på trods af den langvarige effekt af den økonomiske krise i 2008/2009. I udviklingslandene udgør middelklassen nu mere end 34 procent af den samlede beskæftigelse - et tal, der er næsten tredoblet mellem 1991 og 2015.",
     "createdAt": 1670835655020,
-    "updatedAt": 1670838486451
+    "updatedAt": 1670930261527,
+    "color": "#a21942"
   },
   {
     "ID": "8ee7e6bd-c958-404a-852c-01fd4c258473",
@@ -169,7 +177,8 @@
     "title": "INDUSTRI, INNOVATION OG INFRASTRUKTUR",
     "description": "Målet handler om at udvikle pålidelig infrastruktur, fremme bæredygtig industri og investere i videnskabelig forskning og innovation. Vedvarende investeringer i infrastruktur og innovation er afgørende drivkræfter for økonomisk vækst og udvikling. Da over halvdelen af verdens befolkning bor i byer bliver massetransport og vedvarende energi kun vigtigere, og det samme bliver væksten af nye industrier og informations- og kommunikationsteknologier.",
     "createdAt": 1670835687232,
-    "updatedAt": 1670838507768
+    "updatedAt": 1670930292864,
+    "color": "#fd6925"
   },
   {
     "ID": "562d0a82-47d0-40ac-9f4c-ec169a88d4c8",
@@ -188,7 +197,8 @@
     "title": "MINDRE ULIGHED",
     "description": "Målet handler om at styrke de laveste indkomstgrupper og fremme en større økonomisk inddragelse af alle samfundsgrupper uanset køn, race og etnicitet. Det er veldokumenteret, at indkomstuligheden er stigende. De rigeste 10 procent tjener op til 40 procent af den samlede globale indkomst. De fattigste 10 procent tjener kun mellem 2 og 7 procent af den samlede globale indkomst. I udviklingslandene er uligheden vokset med 11 procent, hvis vi tager hensyn til befolkningstilvæksten.",
     "createdAt": 1670835703262,
-    "updatedAt": 1670838533541
+    "updatedAt": 1670930304135,
+    "color": "#dd1367"
   },
   {
     "ID": "965a0962-26e9-4eb1-aca2-e07b18493fe8",
@@ -207,7 +217,8 @@
     "title": "BÆREDYGTIGE BYER OG LOKALSAMFUND",
     "description": "Målet handler om at garantere adgang til sikre og billige boliger samt opgradere beboelse i slumkvarterer og om investeringer i offentlig transport, skabelsen af grønne offentlige rum og forbedring af byplanlægning og bystyring. Mere end halvdelen af verdens befolkning bor nu i byområder. I 2050 vil dette tal være steget til 6,5 milliarder mennesker – svarende til to tredjedele af jordens befolkning. Bæredygtig udvikling kan ikke opnås, hvis vi ikke ændrer den måde, vi bygger og styrer vores byrum.",
     "createdAt": 1670835750404,
-    "updatedAt": 1670838564308
+    "updatedAt": 1670930321880,
+    "color": "#fd9d24"
   },
   {
     "ID": "18e59121-7279-4e73-8759-2950e1c887bb",
@@ -221,7 +232,8 @@
     "title": "ANSVARLIGT FORBRUG OG PRODUKTION",
     "description": "Målet handler om effektiv styring af vores fælles naturressourcer, og måden vi bortskaffer giftigt affald og forurenende stoffer samt at tilskynde industrier, virksomheder og forbrugere til at genbruge og reducere deres affald. Økonomisk vækst og bæredygtig udvikling kræver, at vi hurtigst muligt reducere vores fodaftryk på naturen ved at ændre på den måde vi producerer og forbruger vores varer og ressourcer på. Landbruget er den største forbruger af vand på verdensplan, og kunstig vanding står nu for ca. 70 procent af alt forbrug af ferskvand beregnet til menneskeligt brug.",
     "createdAt": 1670835772555,
-    "updatedAt": 1670838595795
+    "updatedAt": 1670930347525,
+    "color": "#bf8b2e"
   },
   {
     "ID": "b75830ac-def0-4856-bbd6-3aa0ac47a287",
@@ -235,7 +247,8 @@
     "title": "KLIMAINDSATS",
     "description": "Målet handler om at begrænse stigningen af den globale gennemsnitstemperatur til to grader over det før-industrielle niveau og styrke modstandsdygtighed og klimatilpasning i sårbare regioner. Alle lande i verden kan se de drastiske konsekvenser af klimaforandringer. Udledningen af drivhusgasser fortsætter med at stige, og udledningen er i dag mere end 50 procent højere end niveauet i 1990. Endvidere forårsager den globale opvarmning langvarige ændringer i vores klimasystem, som truer med uoprettelige konsekvenser, hvis vi ikke handler nu. ",
     "createdAt": 1670835798967,
-    "updatedAt": 1670838616635
+    "updatedAt": 1670930362684,
+    "color": "#3f7e44"
   },
   {
     "ID": "be5097c4-49a8-44fd-85ef-d53ae2a47d94",
@@ -249,7 +262,8 @@
     "title": "LIVET I HAVET",
     "description": "Målet handler om at skabe en ramme for bæredygtig forvaltning og beskyttelse af havene og kystnære økosystemer og bedre bevarelse og bæredygtig udnyttelse af havbaserede ressourcer. Verdenshavene - deres temperatur, kemi, strøm og liv – driver de globale systemer, som gør Jorden beboelig for mennesker. Håndteringen af denne livsvigtige ressource er afgørende for menneskeheden som helhed, men også for afbødningen af klimaforandringernes konsekvenser.",
     "createdAt": 1670835824028,
-    "updatedAt": 1670838648650
+    "updatedAt": 1670930375637,
+    "color": "#0a97d9"
   },
   {
     "ID": "7804dbeb-fbc7-48d8-bdc7-8d234e933e08",
@@ -263,7 +277,8 @@
     "title": "LIVET PÅ LAND",
     "description": "Målet handler om at bevare og genoprette brugen af terrestriske økosystemer som skove, vådområder, tørre områder og bjerge inden 2030 og fremme bæredygtig forvaltning af skove og standsning af afskovning. Vores liv er lige så afhængig af jorden som af havet i forhold til vores ernæring og vores levebrød. Planteliv leverer 80 procent af vores kost, og vi er afhængige af landbruget, som en vigtig økonomisk ressource og som middel til udvikling. Skove dækker 30 procent af jordens overflade og er vitale levesteder for millioner af arter, og vigtige kilder til ren luft og vand, samt afgørende for bekæmpelse af klimaforandringer.",
     "createdAt": 1670835844033,
-    "updatedAt": 1670838675693
+    "updatedAt": 1670930389798,
+    "color": "#56c02b"
   },
   {
     "ID": "5abc798c-a2a7-4664-9a0d-83a4c22593ac",
@@ -277,7 +292,8 @@
     "title": "FRED, RETFÆRDIGHED OG STÆRKE INSTITUTIONER",
     "description": "Målet handler om at støtte fredelige og inkluderede samfund, give alle adgang til retssikkerhed og opbygge effektive, ansvarlige og inddragende institutioner på alle niveauer. Fred, stabilitet, menneskerettigheder og effektiv regeringsførelse baseret på retsstatsprincipper er vigtige betingelser for en bæredygtig udvikling. Vi lever i en verden, der i stigende grad er opdelt. Nogle regioner nyder vedvarende fred, sikkerhed og velstand, mens andre er plaget af tilsyneladende uendelige cyklusser af konflikter og vold. Dette er på ingen måde uundgåeligt, og skal løses.",
     "createdAt": 1670835871147,
-    "updatedAt": 1670838703780
+    "updatedAt": 1670930408947,
+    "color": "#00689d"
   },
   {
     "ID": "197620c1-ee1a-4940-afdf-a469e90a0d72",
@@ -291,6 +307,7 @@
     "title": "PARTNERSKABER FOR HANDLING",
     "description": "Målet handler om at styrke nord-syd og syd-syd-samarbejde, fremme international handel og støtte øget eksport til udviklingslandene. Verdensmålene for bæredygtig udvikling kan kun realiseres gennem stærkt globalt engagement og samarbejde. Mens udviklingsbistanden fra de udviklede lande er steget med 66 procent mellem 2000 og 2014, har en række humanitære kriser, forårsaget af konflikter og naturkatastrofer, fortsat krævet finansielle ressourcer og bistand. Mange lande har også brug for udviklingsbistand for at fremme deres vækst og handel.",
     "createdAt": 1670835893638,
-    "updatedAt": 1670838732789
+    "updatedAt": 1670930427387,
+    "color": "#19486a"
   }
 ]
