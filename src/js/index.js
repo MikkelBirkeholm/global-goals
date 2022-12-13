@@ -23,6 +23,7 @@ fetch('contentrain/Goals/Goals.json').then(response => response.json())
 
         for (let goal of allGoals) {
             goal.addEventListener('click', () => {
+                blazePagination.innerHTML = ''
                 blazeTrack.innerHTML = ''
                 title.innerText = goal.getAttribute('data-title')
                 let subgoalsString = goal.getAttribute('data-subgoals')
@@ -60,6 +61,6 @@ function initBlaze() {
 dialog.addEventListener('click', (event) => {
     if (event.target.nodeName === 'DIALOG') {
         dialog.close();
-        blazePagination.innerHTML = ''
+
     }
 });
