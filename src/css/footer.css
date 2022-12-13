@@ -71,6 +71,7 @@ footer img {
     border-bottom: 1px solid black;
     font-size: 1.3rem;
     background: transparent;
+    padding: 0.3rem 0;
 }
 
 #submit {
