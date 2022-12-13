@@ -125,3 +125,33 @@ dialog {
   height: 90vh;
   margin: auto;
 }
+
+/* ================================================== */
+
+.article {
+}
+
+.article img {
+  width: 100%;
+  display: block;
+}
+
+.article figure {
+  margin: 0;
+}
+
+.article h3 {
+}
+
+.article p {
+}
+
+
+.article footer {
+  text-align: right;
+}
+
+
+.article footer a {
+  text-decoration: none;
+}
