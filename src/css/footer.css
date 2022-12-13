@@ -1,5 +1,5 @@
 footer {
-  max-width: 1000px;
+  width: clamp(2ch, 1100px, 90vw);
   height: 200px;
   margin: auto;
   padding: 10px 0px;
