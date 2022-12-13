@@ -236,3 +236,33 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+
+
+
+
+
+#menu {
+  position: relative;
+}
+.dropdown {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 0.5rem;
+  top: 2em;
+  right: -32px;
+  width: 102.5px;
+  font-family: 'Inter', sans-serif;
+}
+.dropdown li {
+  text-align: center;
+}
+
+
+.detvejegik {
+  display: flex;
+}
