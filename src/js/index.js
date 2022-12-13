@@ -6,6 +6,7 @@ const description = document.querySelector('#description')
 const blazeTrack = document.querySelector('.blaze-track')
 const blazer = document.querySelector('.blaze-slider')
 const blazePagination = document.querySelector('.blaze-pagination')
+let customSlider = null;
 let allGoals;
 let goalsData;
 
@@ -23,7 +24,8 @@ fetch('contentrain/Goals/Goals.json').then(response => response.json())
         getGoals()
 
 
-        for (let [i, goal] of allGoals.entries()) {
+
+        for (let goal of allGoals) {
             goal.addEventListener('click', (e) => {
                 let index = e.currentTarget.id
                 blazePagination.innerHTML = ''
@@ -42,12 +44,14 @@ fetch('contentrain/Goals/Goals.json').then(response => response.json())
     })
 
 
+
+
 function getGoals() {
     allGoals = document.querySelectorAll('.goal')
 }
 
 function initBlaze() {
-    new BlazeSlider(blazer, {
+    customSlider = new BlazeSlider(blazer, {
         all: {
             enableAutoplay: true,
             autoplayInterval: 3000,
@@ -58,11 +62,12 @@ function initBlaze() {
             slidesToShow: 1
         }
     })
+    customSlider
 }
 
 dialog.addEventListener('click', (event) => {
     if (event.target.nodeName === 'DIALOG') {
         dialog.close();
-
+        customSlider.destroy()
     }
 });
