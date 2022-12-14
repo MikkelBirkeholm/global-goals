@@ -90,10 +90,11 @@ function tileColor() {
 
     anime({
         autoplay: true,
-        targets: tiles[randomAlt],
+        targets: '.tile',
         backgroundColor: colorNum,
         easing: 'linear',
-        duration: 500,
+        duration: 2500,
+        delay: anime.stagger(100, { grid: [6, 3], from: randomAlt }),
         complete: function () {
             tileColor()
         }
