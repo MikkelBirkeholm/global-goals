@@ -35,7 +35,6 @@ button.addEventListener('click', function () {
 
     if (nameInput.value != "" && phoneInput.value.length >= 8 && emailInput.value != "" && messageInput.value != "") {
         button.style.backgroundColor = "green" 
-        location.href = 'action.html'
     }
 
 
