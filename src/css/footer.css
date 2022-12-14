@@ -5,6 +5,7 @@ footer {
   padding: 10px 0px;
   font-family: sans-serif;
   color: black;
+  margin-top: 2rem;
 }
 footer > div {
   display: grid;
@@ -18,7 +19,6 @@ footer img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-right: 1px solid black;
   padding-right: 2rem;
   gap: 0rem;
   font-size: 1.3rem;
@@ -43,7 +43,7 @@ footer img {
 }
 
 .sec-flex {
-  border-left: 1px solid black;
+  border-left: 0.5px solid black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
