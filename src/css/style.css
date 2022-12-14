@@ -265,8 +265,15 @@ form {
 }
 
 #menu::before {
-  content: '⏷';
-  margin-right: 5px;
+  display: inline-block;
+  content: '';
+  vertical-align: text-top;
+  min-width: 1rem;
+  min-height: 1rem;
+  background-image: url('/src/assets/images/dropdown-arrow.svg');
+  background-position: center;
+  background-size: contain;
+  margin-right: 1px;
   cursor: pointer;
 }
 
