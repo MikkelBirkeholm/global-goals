@@ -9,7 +9,6 @@ const blazePagination = document.querySelector('.blaze-pagination')
 const activeBtn = document.querySelector('.active')
 const blazePrev = document.querySelector('.prev')
 const blazeNext = document.querySelector('.next')
-let noGoal;
 let customSlider = null;
 let allGoals;
 let goalsData;
@@ -22,20 +21,7 @@ fetch('contentrain/Goals/Goals.json').then(response => response.json())
             goalsGrid.innerHTML += `<li class="goal" id="${i}" data-subgoals="${item.subgoals}"><img src="${item.cover}" alt="" /></li>`
 
         }
-        goalsGrid.innerHTML += `<li id="no-goal"><img src="src/assets/LOGOER/Global-Goals.png" alt="" /></li>`
-        noGoal = document.querySelector('#no-goal')
-        noGoal.onclick = () => {
-            anime({
-                autoplay: true,
-                targets: '.goal',
-                scale: ['0.1', '1'],
-                easing: 'easeInOutQuad',
-                rotate: ['0.3turn', '-0.3turn', '0'],
-                opacity: ['1', '0.5'],
-                duration: 400,
-                delay: anime.stagger(50, { grid: [6, 3], from: 17 }),
-            })
-        }
+        goalsGrid.innerHTML += `<li id="no-goal"></li>`
         getGoals()
 
 
@@ -83,13 +69,9 @@ function initBlaze() {
 dialog.addEventListener('click', (event) => {
     if (event.target.nodeName === 'DIALOG') {
         dialog.close();
+        customSlider.destroy()
     }
 });
-
-dialog.addEventListener('close', () => {
-    customSlider.destroy()
-    console.log('closed')
-})
 
 
 
@@ -117,8 +99,7 @@ function tileColor() {
             tileColor()
         }
     })
+
 }
-
-
 
 tileColor() 
