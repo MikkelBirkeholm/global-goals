@@ -277,8 +277,16 @@ form {
   background-image: url('/src/assets/images/dropdown-arrow.svg');
   background-position: center;
   background-size: contain;
-  margin-right: 1px;
+  margin-right: 4px;
   cursor: pointer;
+  transition: all 350ms;
+}
+#menucheck {
+  display: none;
+}
+
+#menucheck:checked ~ #menu::before {
+  rotate: 0.5turn;
 }
 
 .dropdown {
