@@ -6,10 +6,11 @@
 
 :root {
   --paginationBtn: #efefef;
-  --font-alt: 'Helvetica';
-  --font-main: 'Inter';
+  --font-alt: 'Arial, Helvetica, sans-serif';
+  --font-main: 'Inter', sans-serif;
+  --color-text: #090909;
   --bg-main: #fff;
-  --un-blue: blue; /* skift til FN blå */
+  --un-blue: #0068b3; /* skift til FN blå */
   --vm-1: #e5243b;
   --vm-2: #dda63a;
   --vm-3: #4c9f38;
@@ -34,7 +35,8 @@
 p,
 span,
 a {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-main);
+  color: var(--color-text);
 }
 
 p {
@@ -46,7 +48,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-alt);
 }
 .blaze-pagination button.active {
   transform: scale(1.5);
@@ -261,6 +263,13 @@ form {
 #menu {
   position: relative;
 }
+
+#menu::before {
+  content: '⏷';
+  margin-right: 5px;
+  cursor: pointer;
+}
+
 .dropdown {
   display: none;
   flex-direction: column;
@@ -273,7 +282,6 @@ form {
   width: 102.5px;
   font-family: 'Inter', sans-serif;
   box-shadow: var(--box-shadow);
-
 }
 .dropdown li {
   text-align: center;
