@@ -10,7 +10,8 @@
   --font-main: 'Inter', sans-serif;
   --color-text: #090909;
   --bg-main: #fff;
-  --un-blue: #0068b3; /* skift til FN blå */
+  --un-blue: #0068b3;
+  /* skift til FN blå */
   --vm-1: #e5243b;
   --vm-2: #dda63a;
   --vm-3: #4c9f38;
@@ -50,6 +51,7 @@ h3,
 h4 {
   font-family: var(--font-alt);
 }
+
 .blaze-pagination button.active {
   transform: scale(1.5);
   background-color: var(--paginationBtn);
@@ -156,6 +158,7 @@ nav ul {
   margin: auto;
   padding: 2em 0;
 }
+
 @media (max-width: 800px) {
   #goal-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -172,6 +175,7 @@ nav ul {
   height: fit-content;
   cursor: pointer;
 }
+
 #mini-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -290,6 +294,7 @@ form {
   font-family: 'Inter', sans-serif;
   box-shadow: var(--box-shadow);
 }
+
 .dropdown li {
   text-align: center;
 }
@@ -322,11 +327,13 @@ form {
   gap: 1rem;
   margin: 3rem 4rem;
 }
+
 #newsimages img {
   width: 100%;
   height: 100%;
 }
-#newsbutton1, 
+
+#newsbutton1,
 #newsbutton2 {
   border: none;
   background: transparent;
@@ -336,9 +343,88 @@ form {
   top: 50%;
   translate: 0 -50%;
 }
+
 #newsbutton1 {
   left: 0.8rem;
 }
+
 #newsbutton2 {
   right: 0.8rem;
+}
+
+
+
+
+
+
+.index-art-1,
+.index-art-2 {
+  padding: 0;
+}
+
+.index-art-1 {
+  background-color: #5B92E5;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.index-art-2 {
+  background-color: #AA9578;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.index-art-1 img,
+.index-art-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 650px) {
+
+  .index-art-1 img,
+  .index-art-2 img {
+    display: none;
+  }
+
+  .index-art-1 {
+    grid-template-columns: 2fr;
+  }
+  
+  .index-art-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.index-art-1 article,
+.index-art-2 article {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem;
+}
+
+.index-art-1 h2,
+.index-art-2 h2 {
+  text-align: left;
+  margin: 0;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.index-art-1 p,
+.index-art-2 p {
+  margin: 0;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.index-art-1 hr,
+.index-art-2 hr {
+  background-color: white;
+  border: 1px solid white;
+  /* border-radius: 2px; */
+  width: 33%;
 }
