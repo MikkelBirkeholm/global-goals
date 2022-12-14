@@ -273,8 +273,16 @@ form {
   background-image: url('/src/assets/images/dropdown-arrow.svg');
   background-position: center;
   background-size: contain;
-  margin-right: 1px;
+  margin-right: 4px;
   cursor: pointer;
+  transition: all 350ms;
+}
+#menucheck {
+  display: none;
+}
+
+#menucheck:checked ~ #menu::before {
+  rotate: 0.5turn;
 }
 
 .dropdown {
@@ -298,18 +306,6 @@ form {
   display: flex;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 #newsslider {
   width: 100%;
   background-color: var(--un-blue);
@@ -326,7 +322,7 @@ form {
   width: 100%;
   height: 100%;
 }
-#newsbutton1, 
+#newsbutton1,
 #newsbutton2 {
   border: none;
   background: transparent;
