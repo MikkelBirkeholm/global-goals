@@ -297,3 +297,48 @@ form {
 .detvejegik {
   display: flex;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#newsslider {
+  width: 100%;
+  background-color: blue;
+  position: relative;
+}
+
+#newsimages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 0 4rem;
+}
+#newsimages img {
+  width: 100%;
+  height: 100%;
+}
+#newsbutton1, 
+#newsbutton2 {
+  border: none;
+  background: transparent;
+  color: var(--bg-main);
+  font-size: 4rem;
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+}
+#newsbutton1 {
+  left: 0.8rem;
+}
+#newsbutton2 {
+  right: 0.8rem;
+}
