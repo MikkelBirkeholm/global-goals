@@ -312,7 +312,7 @@ form {
 
 #newsslider {
   width: 100%;
-  background-color: blue;
+  background-color: var(--un-blue);
   position: relative;
 }
 
@@ -320,7 +320,7 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
-  margin: 0 4rem;
+  margin: 3rem 4rem;
 }
 #newsimages img {
   width: 100%;
