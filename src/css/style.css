@@ -261,9 +261,60 @@ dialog::backdrop {
 
 /* ======================kontakt============================ */
 
+.contact {
+  display: block;
+  position: relative;
+}
+
+.contact h2 {
+  color: var(--un-blue);
+  letter-spacing: 5px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact h1 {
+  font-size: 72px;
+}
+
+.contact p {
+  font-size: 24px;
+  color: #8c8888;
+  font-weight: bold;
+}
+
 form {
   display: flex;
   flex-direction: column;
+  width: 50%;
+}
+
+form div {
+  display: flex;
+  flex-direction: row;
+}
+
+form label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--un-blue);
+  font-weight: bold;
+}
+
+form input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+}
+
+#submit {
+  width: 50%;
+  height: 40px;
+  background-color: var(--un-blue);
+  color: #ffffff;
+  opacity: 70%;
+  border: none;
+  margin-top: 20px;
 }
 
 #menu {
@@ -283,11 +334,12 @@ form {
   cursor: pointer;
   transition: all 350ms;
 }
+
 #menucheck {
   display: none;
 }
 
-#menucheck:checked ~ #menu::before {
+#menucheck:checked~#menu::before {
   rotate: 0.5turn;
 }
 
@@ -375,6 +427,7 @@ form {
 }
 
 @media (max-width: 650px) {
+
   .index-art-1 img,
   .index-art-2 img {
     display: none;
@@ -535,15 +588,20 @@ form {
   height: fit-content;
 }
 
+
+
+
 @media screen and (min-width: 900px) {
-  .info-box-alt:hover .info-content > * {
+  .info-box-alt:hover .info-content>* {
     color: white !important;
   }
+
   .info-box-alt::after {
     height: 100%;
     width: 35%;
     background-color: var(--un-blue);
   }
+
   .info-box {
     gap: 5rem;
     grid-template-columns: 1.2fr 0.8fr;
