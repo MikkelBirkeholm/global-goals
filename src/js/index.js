@@ -11,6 +11,7 @@ const blazePrev = document.querySelector('.prev')
 const blazeNext = document.querySelector('.next')
 let customSlider = null;
 let allGoals;
+let noGoal;
 let goalsData;
 
 fetch('contentrain/Goals/Goals.json').then(response => response.json())
@@ -21,10 +22,19 @@ fetch('contentrain/Goals/Goals.json').then(response => response.json())
             goalsGrid.innerHTML += `<li class="goal" id="${i}" data-subgoals="${item.subgoals}"><img src="${item.cover}" alt="" /></li>`
 
         }
-        goalsGrid.innerHTML += `<li id="no-goal"></li>`
+        goalsGrid.innerHTML += `<li id="no-goal"><img src="src/assets/LOGOER/Global-Goals.png"></li>`
         getGoals()
+        noGoal = document.querySelector('#no-goal')
 
-
+        noGoal.onclick = () => {
+            anime({
+                autoplay: true,
+                targets: '.goal',
+                scale: ['0.1', '1.2', '1'],
+                translateY: [anime.stagger(15, { grid: [6, 3], from: anime.random(1, 18) }), 0],
+                delay: anime.stagger(200, { grid: [6, 3], from: anime.random(1, 18) })
+            })
+        }
 
         for (let goal of allGoals) {
             goal.addEventListener('click', (e) => {
@@ -50,6 +60,8 @@ fetch('contentrain/Goals/Goals.json').then(response => response.json())
 function getGoals() {
     allGoals = document.querySelectorAll('.goal')
 }
+
+
 
 function initBlaze() {
     customSlider = new BlazeSlider(blazer, {
@@ -100,6 +112,15 @@ function tileColor() {
         }
     })
 
+
 }
 
-tileColor() 
+tileColor()
+
+
+// video scrubber
+const video = document.querySelector('#video');
+
+window.addEventListener('scroll', function () {
+    video.currentTime = window.scrollY / 150
+});

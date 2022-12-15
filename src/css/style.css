@@ -155,12 +155,13 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 1em;
-  align-items: flex-start;
   max-width: 1100px;
   margin: auto;
   padding: 2em 0;
 }
-
+#no-goal {
+  margin: auto;
+}
 @media (max-width: 800px) {
   #goal-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -402,6 +403,7 @@ form input {
   right: 0.8rem;
 }
 
+<<<<<<< Updated upstream
 .index-art-1,
 .index-art-2 {
   padding: 0;
@@ -474,6 +476,8 @@ form input {
   width: 33%;
 }
 
+=======
+>>>>>>> Stashed changes
 .newnew {
   display: flex;
   flex-direction: column;
@@ -486,6 +490,19 @@ form input {
   gap: 1rem;
 }
 
+.about-box {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.about-box .info-content p {
+  font-size: 1rem;
+}
+
+.about-box span {
+  margin: 2em 0;
+}
+
 .subheading {
   color: var(--un-blue);
   letter-spacing: 0.4rem;
@@ -493,6 +510,9 @@ form input {
 }
 
 .info-box img {
+  width: 100%;
+}
+.info-box video {
   width: 100%;
 }
 
@@ -552,11 +572,12 @@ form input {
   gap: 1rem;
 }
 
-.info-box-alt::after {
+.info-box-alt::after,
+.info-box-alt::before {
   position: absolute;
   left: 0;
   content: '';
-  display: block;
+  display: inline-block;
   height: 40%;
   width: 100%;
   background-color: var(--un-blue);
@@ -564,9 +585,15 @@ form input {
   transition: 500ms;
 }
 
+.info-box-alt:hover::before {
+  right: 0;
+  width: 30%;
+  background-color: var(--vm-9);
+}
+
 .info-box-alt:hover::after {
   left: 50%;
-  width: 70%;
+  width: 50%;
   background-color: var(--vm-11);
 }
 
@@ -588,8 +615,16 @@ form input {
   height: fit-content;
 }
 
+<<<<<<< Updated upstream
 
 
+=======
+.about-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+>>>>>>> Stashed changes
 
 @media screen and (min-width: 900px) {
   .info-box-alt:hover .info-content>* {
@@ -602,6 +637,14 @@ form input {
     background-color: var(--un-blue);
   }
 
+<<<<<<< Updated upstream
+=======
+  .info-box-alt::before {
+    height: 50%;
+    width: 35%;
+    background-color: var(--un-blue);
+  }
+>>>>>>> Stashed changes
   .info-box {
     gap: 5rem;
     grid-template-columns: 1.2fr 0.8fr;
@@ -609,6 +652,12 @@ form input {
 
   .info-box-alt {
     gap: 1rem;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.2fr 0.8fr;
+  }
+
+  .about-box {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 0.1fr 0.95fr 0.95fr;
   }
 }
