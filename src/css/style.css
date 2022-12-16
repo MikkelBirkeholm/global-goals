@@ -292,10 +292,10 @@ form {
   height: 400px;
 }
 
-.inputs, .labels{
+.inputs,
+.labels {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
 }
 
 form div {
@@ -303,8 +303,6 @@ form div {
   flex-direction: row;
   gap: 50px;
 }
-
-
 
 form label {
   font-family: Arial, Helvetica, sans-serif;
@@ -337,10 +335,9 @@ form input {
 
 #yourmessage {
   resize: none;
-
 }
 
-#figure{
+#figure {
   position: absolute;
   display: block;
   right: 0;
@@ -350,7 +347,7 @@ form input {
 #ball {
   width: 100px;
   height: 100px;
-  background-color: #0068B3;
+  background-color: #0068b3;
   border-radius: 100%;
   outline: 10px solid white;
   position: absolute;
@@ -360,10 +357,9 @@ form input {
 #graybox {
   height: 640px;
   width: 400px;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   border-radius: 0 50% 0 0;
 }
-
 
 /* ============================================= */
 
@@ -587,6 +583,11 @@ form input {
   padding: 5px 2rem;
   margin: 2em 0;
   height: fit-content;
+}
+
+.video1 {
+  width: clamp(2ch, 1000px, 90vw);
+  margin: 5rem 0;
 }
 
 .about-box img {
