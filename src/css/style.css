@@ -159,9 +159,11 @@ nav ul {
   margin: auto;
   padding: 2em 0;
 }
+
 #no-goal {
   margin: auto;
 }
+
 @media (max-width: 800px) {
   #goal-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -272,6 +274,7 @@ dialog::backdrop {
   letter-spacing: 5px;
   font-size: 24px;
   margin-bottom: 20px;
+  margin-top: 200px;
 }
 
 .contact h1 {
@@ -341,7 +344,7 @@ form input {
   position: absolute;
   display: block;
   right: 0;
-  top: 100px;
+  top: 300px;
 }
 
 #ball {
@@ -360,7 +363,6 @@ form input {
   background-color: #c4c4c4;
   border-radius: 0 50% 0 0;
 }
-
 /* ============================================= */
 
 #menu {
@@ -385,7 +387,7 @@ form input {
   display: none;
 }
 
-#menucheck:checked ~ #menu::before {
+#menucheck:checked~#menu::before {
   rotate: 0.5turn;
 }
 
@@ -482,6 +484,7 @@ form input {
 .info-box img {
   width: 100%;
 }
+
 .info-box video {
   width: 100%;
 }
@@ -597,7 +600,7 @@ form input {
 }
 
 @media screen and (min-width: 900px) {
-  .info-box-alt:hover .info-content > * {
+  .info-box-alt:hover .info-content>* {
     color: white !important;
   }
 
@@ -612,6 +615,7 @@ form input {
     width: 35%;
     background-color: var(--un-blue);
   }
+
   .info-box {
     gap: 5rem;
     grid-template-columns: 1.2fr 0.8fr;
