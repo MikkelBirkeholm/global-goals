@@ -387,7 +387,7 @@ form input {
   display: none;
 }
 
-#menucheck:checked~#menu::before {
+#menucheck:checked ~ #menu::before {
   rotate: 0.5turn;
 }
 
@@ -465,6 +465,7 @@ form input {
 .about-box {
   display: grid;
   grid-template-columns: 1fr;
+  margin: 5rem 0;
 }
 
 .about-box .info-content p {
@@ -600,7 +601,7 @@ form input {
 }
 
 @media screen and (min-width: 900px) {
-  .info-box-alt:hover .info-content>* {
+  .info-box-alt:hover .info-content > * {
     color: white !important;
   }
 
@@ -627,8 +628,7 @@ form input {
   }
 
   .about-box {
-    display: grid;
     gap: 1em;
-    grid-template-columns: 0.1fr 0.95fr 0.95fr;
+    grid-template-columns: 0.2fr 0.9fr 0.9fr;
   }
 }
