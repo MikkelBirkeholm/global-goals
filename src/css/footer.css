@@ -1,11 +1,10 @@
 footer {
   width: clamp(2ch, 1100px, 90vw);
   height: 200px;
-  margin: auto;
   padding: 10px 0px;
   font-family: sans-serif;
   color: black;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 footer > div {
   display: grid;
