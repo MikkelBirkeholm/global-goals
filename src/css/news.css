@@ -6,6 +6,9 @@
     padding: 2em;
     margin-bottom: 4rem;
   }
+  h1 {
+    margin: 2rem 0;
+  }
   
   .bold {
     font-weight: bold;
