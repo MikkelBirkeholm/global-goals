@@ -299,6 +299,7 @@ form label {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--un-blue);
   font-weight: bold;
+  margin: 30px 0 30px 0;
 }
 
 form input {
@@ -308,16 +309,22 @@ form input {
   width: 100%;
 }
 
+
 #submit {
   width: 50%;
   height: 40px;
   background-color: var(--un-blue);
-  color: #ffffff;
+  color: white;
   opacity: 70%;
   border: none;
-  margin-top: 20px;
+  margin-top: 30px;
+  flex-direction: flex-end;
 }
 
+#yourmessage {
+  resize: none;
+}
+/* ============================================= */
 #menu {
   position: relative;
 }
