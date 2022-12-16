@@ -337,8 +337,36 @@ form input {
 
 #yourmessage {
   resize: none;
+
 }
+
+#figure{
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 100px;
+}
+
+#ball {
+  width: 100px;
+  height: 100px;
+  background-color: #0068B3;
+  border-radius: 100%;
+  outline: 10px solid white;
+  position: absolute;
+  right: 30px;
+}
+
+#graybox {
+  height: 640px;
+  width: 400px;
+  background-color: #C4C4C4;
+  border-radius: 0 50% 0 0;
+}
+
+
 /* ============================================= */
+
 #menu {
   position: relative;
 }
