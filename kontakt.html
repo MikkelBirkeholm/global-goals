@@ -52,30 +52,35 @@
   </header>
 
   <section class="contact">
-    <header>
-      <h2>
-        KONTAKT OS
-      </h2>
-      <h1>Kommunikation <br> er vigtig for os</h1>
-      <p>Kontakt os hvis du har en besked, forespørgsel eller feedback til <br> vores indsats</p>
-    </header>
+    <section class="contact">
+      <div>
+        <h2>
+          KONTAKT OS
+        </h2>
+        <h1>Kommunikation <br> er vigtig for os</h1>
+        <p>Kontakt os hvis du har en besked, forespørgsel eller feedback til <br> vores indsats</p>
+      </div>
+      
+      <form action="">
+      <div class="labels">
+        <label for="email">E-mail</label>
+        <label for="name">Navn</label>
+      </div>
+      
+      <div class="inputs">
+        <input id="email"  type="email" />
+        <input id="name" type="name" />
+      </div>
+      
+      
+      <label for="Message">Din Besked</label>
+      <textarea id="yourmessage" name="" id="message" cols="30" rows="6"></textarea>
+      
+      <input id="submit" type="submit" value="Send" />
+      
+    </form>
   </section>
-
-  <form action="">
-    <div>
-      <label for="name">Navn <br><br><br> <br></label>
-      <input id="name" type="name" />
-
-      <label for="email">Email</label>
-      <input id="email" type="email" />
-    </div>
-
-    <label for="Message">Besked</label>
-    <textarea id="message" name="" id="message" cols="30" rows="6"></textarea>
-
-    <input id="submit" type="button" value="Send" />
-  </form>
-  <footer>
+    <footer>
     <div>
       <div class="sec-grid">
         <img src="src/assets/LOGOER/Global-Goals.png" alt="" />
