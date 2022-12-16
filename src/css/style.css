@@ -378,14 +378,14 @@ form input {
   display: block;
   position: absolute;
   right: -150px;
-  top: 87%;
+  top: -95px;
 }
 
 .bluedots {
   display: block;
   position: absolute;
-  right: 380px;
-  top: 200px;
+  right: 383px;
+  top: -750px;
   margin: -3rem;
 }
 
