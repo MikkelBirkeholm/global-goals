@@ -88,5 +88,5 @@ dialog.addEventListener('click', (event) => {
 const video = document.querySelector('#video');
 
 window.addEventListener('scroll', function () {
-    video.currentTime = window.scrollY / 150
+    video.currentTime = window.scrollY / 100
 });
